@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 
-const Customer: React.FC = () => {
+const On_Progress: React.FC = () => {
   const data = Array.from({ length: 100 }, (_, i) => ({
     company: `Company ${i + 1}`,
     applicant: `Applicant ${i + 1}`,
@@ -122,7 +122,7 @@ const Customer: React.FC = () => {
                               Detail
                             </a>
                             <a href="#" className="text-indigo-600 hover:text-indigo-900">
-                              Approve Review
+                              Finish
                             </a>
                           </td>
                         </tr>
@@ -173,4 +173,4 @@ const Customer: React.FC = () => {
   );
 };
 
-export default Customer;
+export default On_Progress;

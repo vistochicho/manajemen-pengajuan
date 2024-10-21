@@ -163,12 +163,11 @@ export const PtForm = () => {
       </div>
 
       <div className="flex justify-between sm:col-span-6">
-        <div className="flex justify-start text-blue-500 px-2.5 py-1.5">
-          <button>Test</button>
-        </div>
-
         <div>
-          <button className="px-2.5 py-1.5 bg-blue-400 text-white">test2</button>
+          <button className="text-blue-400 px-2.5 py-1.5">Clear Form</button>
+        </div>
+        <div>
+          <button className="text-white bg-blue-400 hover:bg-blue-500 rounded-md px-6 py-1.5">Submit</button>
         </div>
       </div>
     </div>
